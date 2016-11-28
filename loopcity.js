@@ -16,9 +16,15 @@ for (x = 0; x <=4; x++){
 var weaponChest = ["Mace","Sorcerer's Stone","Excalibur"];
 var hero{
   name: "Merlin",
-  weaponChest: "Mace",
+  weapon: "Mace",
   power:30
 };
 function something(par) {
-  
+  if (hero.name=="Merlin"&&hero.weapon=="Sorcerer's Stone"){
+    console.log(hero.name+ " shall slay the dragon with the"+hero.weapon);
+  }
+  else{
+    hero.weapon="Sorcerer's Stone";
+    console.log(hero.name+" is ready for war with the "+hero.weapon);
+  }
 }
