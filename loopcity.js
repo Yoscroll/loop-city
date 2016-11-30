@@ -4,7 +4,7 @@ for (count = 0;count<=100;count++){
 }
 
 var animalCount=null;
-for (animalCount = 2; animalCount <=7; animalCount++){
+for (animalCount = 2; animalCount <7; animalCount++){
 console.log("there are "+animalCount+" many animals in Noah's Arc");
 }
 
@@ -14,7 +14,7 @@ for (x = 0; x <=4; x++){
 }
 
 var weaponChest = ["Mace","Sorcerer's Stone","Excalibur"];
-var hero{
+var hero={
   name: "Merlin",
   weapon: "Mace",
   power:30
@@ -28,3 +28,4 @@ function something(par) {
     console.log(hero.name+" is ready for war with the "+hero.weapon);
   }
 }
+something();
