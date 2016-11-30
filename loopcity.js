@@ -21,7 +21,7 @@ for (x = 0; x <5; x++){
 var weaponChest = ["Mace","Sorcerer's Stone","Excalibur"];
 var hero={
   name: "Merlin",
-  weapon: "Mace",
+  weapon: weaponChest[0],
   power:30
 };
 function something(name,weapon) {
