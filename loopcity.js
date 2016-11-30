@@ -11,7 +11,7 @@ console.log("there are "+animalCount+" many animals in Noah's Arc");
 
 
 var partyAnimals = ["pig","dog","cat","wolf","snail"];
-for (x = 0; x <=4; x++){
+for (x = 0; x <partyAnimals.length; x++){
   console.log(partyAnimals[x]);
 }
 
